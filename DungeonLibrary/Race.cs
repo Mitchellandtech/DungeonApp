@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DungeonLibrary
 {
-    public class Class1
+    public enum Race
     {
+        Samuari,
+        Knight,
+        Viking,
     }
 }
