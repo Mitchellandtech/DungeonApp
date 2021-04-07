@@ -56,6 +56,7 @@ namespace Dungeon
 
                 ConsoleKeyInfo keyInfo = ReadKey(true);
                 keyPressed = keyInfo.Key;
+
                 if (keyPressed == ConsoleKey.UpArrow)
                 {
                     SelectedIndex--;
