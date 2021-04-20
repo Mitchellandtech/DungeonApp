@@ -46,14 +46,14 @@ namespace DungeonLibrary
         public override string ToString()
         {
             return string.Format("\n******FIGHT!!*****\n" +
-                "{0\n}" +
+                "{0}\n" +
                 "Life: {1}/{2}\n" +
-                "Block: {5}\n" +
-                "Description:\n{6}\n",
+                "Block: {3}\n" +
+                "Description:\n{4}\n",
                 Name, Life, MaxLife, MinDamage, MaxDamage, Block, Description);
         }
 
-        public override int CalcDamage()
+        public override int CalcBlock()
         {
             Random rand = new Random();
             return rand.Next(MinDamage, MaxDamage + 1);

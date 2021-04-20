@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Characters.cs" />
     <Compile Include="Combat.cs" />
+    <Compile Include="Dragon.cs" />
+    <Compile Include="Loki.cs" />
     <Compile Include="Mongol.cs" />
     <Compile Include="Opponents.cs" />
     <Compile Include="Player.cs" />
