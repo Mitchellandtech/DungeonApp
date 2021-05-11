@@ -20,12 +20,16 @@ namespace DungeonLibrary
 
                 defender.Life -= damageDelt;
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("{0} hit {1} for {2} damage!", attacker.Name, defender.Name, damageDelt);
+                Console.WriteLine("hit {0} for {1} damage!",  defender.Name, damageDelt);
                 Console.ResetColor();
+         
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine($"{attacker.Name} missed!");
+
+                
             }
         }//enddoattack
 

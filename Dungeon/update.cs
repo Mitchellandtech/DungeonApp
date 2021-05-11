@@ -74,8 +74,8 @@ You are Entering the Tomb of the lost souls . What would you like to do?
 
                         Console.WriteLine(GetRoom());
 
-                        Mongol m1 = new Mongol();
-                        Mongol m2 = new Mongol("Genghis Khan", 65, 55, 35, 25, 10, 15, "The Most Feared", true);
+                        Skeleton m1 = new Skeleton();
+                        Skeleton m2 = new Skeleton("Genghis Khan", 65, 55, 35, 25, 10, 15, "The Most Feared", true);
 
                         Opponents[] opponents = { m1, m2 };
                         Random rand = new Random();
@@ -197,7 +197,16 @@ You are Entering the Tomb of the lost souls . What would you like to do?
         {
             string[] rooms =
             {
-                 "The room is dark and musty with the smell of lost souls."
+                 "The room is dark and musty with the smell of lost souls.",  "his small chamber is a bloody mess. The corpse of a minotaur lies on the floor, its belly carved out. The creature's innards are largely missing, and yet you detect no other wounds. Bloody, froglike footprints track away from the corpse and out an open door.",
+                "You've opened the door to a torture chamber. Several devices of degradation, pain, and death stand about the room, all of them showing signs of regular use. The wood of the rack is worn smooth by struggling bodies, and the iron maiden appears to be occupied by a corpse.",
+                " A huge stewpot hangs from a thick iron tripod over a crackling fire in the center of this chamber. A hole in the ceiling allows some of the smoke from the fire to escape, but much of it expands across the ceiling and rolls down to fill the room in a dark fog. Other details are difficult to make out, but some creature must be nearby, because it smells like a good soup is cooking.",
+                "This room is a small antechamber before two titanic bronze doors. Each stands 20 feet tall and is about 7 feet wide. The double doors are peaked at their centers, but unlike many sets of double doors, their division isn't in the center. Instead, the crack between the doors resembles a crooked bolt of lightning, which a figure in a cloud carved in the stone above the door appears to be hurling. The lightning bolt strikes down roughly 2 feet to the right of center. The figure in the clouds is deliberately indistinct, but it appears male, having a beard and male proportions. The stroke of bronze electricity hits a tower that seems small compared to the figure. This tower cracks down the center, continuing the gap between the doors until it reaches the ground. To either side of the tower lie pastoral scenes of hillsides dotted with sheep. There doesn't appear to be a lock or handles.",
+                "You open the door and before you is a dragon's hoard of treasure. Coins cover every inch of the room, and jeweled objects of precious metal jut up from the money like glittering islands in a sea of gold.",
+                "The burble of water reaches your ears after you open the door to this room. You see the source of the noise in the far wall: a large fountain artfully carved to look like a seashell with the figure of a seacat spewing clear water into its basin.",
+                "This small room contains several pieces of well-polished wood furniture. Eight ornate, high-backed chairs surround a long oval table, and a side table stands next to the far exit. All bear delicate carvings of various shapes. One bears carvings of skulls and bones, another is carved with shields and magic circles, and a third is carved with shapes like flames and lightning strokes.",
+                "A strange ceiling is the focal point of the room before you. It's honeycombed with hundreds of holes about as wide as your head. They seem to penetrate the ceiling to some height beyond a couple feet, but you can't be sure from your vantage point.",
+                "This room is a small antechamber before two titanic bronze doors. Each stands 20 feet tall and is about 7 feet wide. The double doors are peaked at their centers, but unlike many sets of double doors, their division isn't in the center. Instead, the crack between the doors resembles a crooked bolt of lightning, which a figure in a cloud carved in the stone above the door appears to be hurling. The lightning bolt strikes down roughly 2 feet to the right of center. The figure in the clouds is deliberately indistinct, but it appears male, having a beard and male proportions. The stroke of bronze electricity hits a tower that seems small compared to the figure. This tower cracks down the center, continuing the gap between the doors until it reaches the ground. To either side of the tower lie pastoral scenes of hillsides dotted with sheep. There doesn't appear to be a lock or handles.",
+                "The door creaks open, which somewhat overshadows the sound of bubbling liquid. Before you is a room about which alchemists dream. Three tables bend beneath a clutter of bottles of liquid and connected glass piping. Several bookshelves stand nearby stuffed to overfilling with a jumble of books, jars, bottles, bags, and boxes. The alchemist who set this all up doesn't seem to be present, but a beaker of green fluid boils over a burner on one of the tables.",
             };
             Random rand = new Random();
             int indexNbr = rand.Next(rooms.Length);

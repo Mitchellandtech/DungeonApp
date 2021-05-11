@@ -19,22 +19,29 @@ namespace DungeonLibrary
             MaxLife = 40;
             MaxDamage = 25;
             Name = @"Loki
-           v
-        (__)v | v
-        /\/\\_|_/
-       _\__/  |
-      /  \/`\<`)
-      \ (  |\_/
-      /)))-(  |
-     / /^ ^ \ |
-    /  )^/\^( |
-    )_//`__>> |
-      #   #`  |";
+  ,/         \.
+ ((           ))
+  \`.       ,'/
+   )')     (`(
+ ,'`/       \,`.
+(`-(         )-')
+ \-'\,-'`-./`-/
+  \-')     (`-/
+  /`'       `'\
+ (_       _  )
+ | ( \     / ) |
+ |  `.\   /,'  |
+ |    `\ / '   |
+ (             )
+  \           /
+   \         /
+    `.     ,'
+      `-.- '";
             Life = 40;
             HitChance = 35;
             Block = 30;
             MinDamage = 4;
-            Description = "The Trickster";   
+            Description = "The Trickster";      
         }
         
 

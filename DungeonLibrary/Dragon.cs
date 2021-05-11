@@ -59,7 +59,7 @@ namespace DungeonLibrary
             HitChance = 35;
             Block = 30;
             MinDamage = 4;
-            Description = "The Trickster";
+            Description = "Fire Breathing Dragon";
         }
 
     }
